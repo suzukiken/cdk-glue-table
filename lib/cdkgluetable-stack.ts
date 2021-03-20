@@ -22,7 +22,7 @@ export class CdkgluetableStack extends cdk.Stack {
 
     const table = new glue.Table(this, "table", {
       database: database,
-      tableName: PREFIX_NAME + '-table',
+      tableName: PREFIX_NAME + '_table', // Athena support only underscore
       columns: [
         {
           name: "id",
