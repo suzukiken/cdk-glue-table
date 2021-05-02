@@ -5,4 +5,4 @@ To deploy a Table on AWS Glue.
 * `npm install`
 * `cdk deploy`
 
-[description](https://figmentresearch.com/aws/cdkgluetable)
+[description](https://note.figmentresearch.com/aws/cdkgluetable)
